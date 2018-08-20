@@ -1,0 +1,25 @@
+<!-- https://developer.android.com/training/implementing-navigation/nav-drawer -->
+
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dishwatcher.nl.HomeActivity">
+
+    <FrameLayout
+        android:layout_width="340dp"
+        android:layout_height="131dp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="57dp">
+
+        <TextView
+            android:id="@+id/company_name"
+            android:layout_width="119dp"
+            android:layout_height="43dp"
+            android:text="" />
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

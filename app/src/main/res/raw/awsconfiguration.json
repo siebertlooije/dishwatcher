@@ -1,0 +1,31 @@
+{
+  "UserAgent": "MobileHub/1.0",
+  "Version": "1.0",
+  "CredentialsProvider": {
+    "CognitoIdentity": {
+      "Default": {
+        "PoolId": "eu-west-1:93970c5b-6a89-48cb-a631-f63b5afaa456",
+        "Region": "eu-west-1"
+      }
+    }
+  },
+  "IdentityManager": {
+    "Default": {}
+  },
+  "DynamoDBObjectMapper": {
+    "Default":{
+      "Region":"eu-west-1"
+    }
+  },
+  "PinpointAnalytics": {
+    "Default": {
+      "AppId": "71c2c4a6be004bedbd131bc398016b9e",
+      "Region": "us-east-1"
+    }
+  },
+  "PinpointTargeting": {
+    "Default": {
+      "Region": "us-east-1"
+    }
+  }
+}
